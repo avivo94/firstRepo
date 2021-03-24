@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 
 /**
- * @author david,
+ * @author David Nashash & Aviv Okun
  * class used to check arrays holds arrays
  */
 public class ThreadCheckArray implements Runnable 
