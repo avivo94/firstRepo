@@ -1,5 +1,10 @@
 import java.util.ArrayList;
 
+
+/**
+ * @author david,
+ * class used to check arrays holds arrays
+ */
 public class ThreadCheckArray implements Runnable 
 {
 	private boolean flag;
@@ -7,8 +12,12 @@ public class ThreadCheckArray implements Runnable
 	SharedData sd;
 	ArrayList<Integer> array;
 	int b;
-	int x=3;
 	
+	/**
+	 * stores an object of sharedData, 
+	 * creates a boolean array	 * 
+	 * @param sd
+	 */
 	public ThreadCheckArray(SharedData sd) 
 	{
 		this.sd = sd;	
@@ -53,6 +62,9 @@ public class ThreadCheckArray implements Runnable
 		rec(n-1, b);
 	}
 
+	/**
+	 * public run(); checks arrays while managing threads.
+	 */
 	public void run() {
 		if (array.size() != 1)
 			if (Thread.currentThread().getName().equals("thread1"))
