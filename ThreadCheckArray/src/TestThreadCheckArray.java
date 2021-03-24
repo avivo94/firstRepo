@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 /**
- * @author Aviv Okun & David Nashash
+ * @author Aviv Okun and David Nashash
  * 
  * 
  */

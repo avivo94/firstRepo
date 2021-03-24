@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 /**
  * SharedData contains the data shared with both threads in ThreadCheckArray
- * @author Aviv Okun & David Nashash
+ * @author Aviv Okun and David Nashash
  *
  */
 public class SharedData 
