@@ -14,9 +14,9 @@ public class ThreadCheckArray implements Runnable
 	int b;
 	
 	/**
-	 * stores an object of sharedData, 
-	 * creates a boolean array	 * 
+	 * stores an object of sharedData and creates a boolean array 
 	 * @param sd
+	 * sharedDate object
 	 */
 	public ThreadCheckArray(SharedData sd) 
 	{
@@ -63,7 +63,7 @@ public class ThreadCheckArray implements Runnable
 	}
 
 	/**
-	 * public run(); checks arrays while managing threads.
+	 *checks arrays while managing threads.
 	 */
 	public void run() {
 		if (array.size() != 1)
