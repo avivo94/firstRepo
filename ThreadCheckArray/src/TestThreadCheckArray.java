@@ -2,16 +2,15 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 /**
- * @author aviv
- * public class that checks ThreadCheckArray
+ * @author Aviv Okun & David Nashash
+ * 
  * 
  */
 public class TestThreadCheckArray {
 	/**
-	 * test test test
+	 * Main method to check ThreadCheckArray class
 	 * @param args
-	 * 
-	 * 
+	 * String of arguments for main method
 	 */
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {
