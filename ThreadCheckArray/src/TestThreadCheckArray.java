@@ -4,13 +4,14 @@ import java.util.ArrayList;
 /**
  * @author 
  * public class that checks ThreadCheckArray
- * @
+ * 
  */
 public class TestThreadCheckArray {
 	/**
+	 * test test test
 	 * @param args
-	 * public method
-	 * {@summary}test test test
+	 * 
+	 * 
 	 */
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {

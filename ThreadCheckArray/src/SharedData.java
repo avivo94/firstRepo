@@ -1,5 +1,10 @@
 import java.util.ArrayList;
 
+/**
+ * SharedData contains the data shared with both threads in ThreadCheckArray
+ * @author Aviv Okun & David Nashash
+ *
+ */
 public class SharedData 
 {
 	private ArrayList<Integer> array;
@@ -7,6 +12,11 @@ public class SharedData
 	private boolean flag;
 	private final int b;
 	
+	/**
+	 * 
+	 * @param array
+	 * @param b
+	 */
 	public SharedData(ArrayList<Integer> array, int b) {
 		
 		this.array = array;
