@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 /**
- * @author 
+ * @author aviv
  * public class that checks ThreadCheckArray
  * 
  */
