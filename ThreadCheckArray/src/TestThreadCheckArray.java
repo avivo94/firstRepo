@@ -1,15 +1,11 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-<<<<<<< HEAD
-
-=======
 /**
- * @author 
+ * @author aviv
  * public class that checks ThreadCheckArray
- * @
+ * 
  */
->>>>>>> branch 'master' of https://github.com/avivo94/firstRepo
 public class TestThreadCheckArray {
 	/**
 	 * @param args
